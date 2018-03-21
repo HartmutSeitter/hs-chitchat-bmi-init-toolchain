@@ -222,17 +222,17 @@ class App extends Component {
   
   render () {
     return (
-      <div className='button__container'>      
+      <div className='button__container'>   
         <p className='conversation__intro'>
            <img src={ require('./images/ibmcloud_icon.png') } />
-           <br/>This is an interactive demo BCW 2018 using different IBM Watson service
-            to build advanced conversation dialogs.
+           <br/>Dies ist eine interaktive Demo/Prototyp von unterschiedlichen IBM Watson services,
+                um Dialoge abzubilden, die funktionell über einen standard Dialog hinausgehen.
             <br/><br/>
-            You can communicate with the chatbot in German and English right now. We able to extend it to other languages.
+                Der Chatbot ist auf derzeit auf deutscher Sprache implementiert, kann aber auf anderen Sprachen ausgebaut werden.
             <br/>
-            You should know, in this demo we are using English as default language, if you enter less than 3 words.
-            <br/>(This is subject to be change, it's implmented in this way only for demo purpose).
-            <br/>Try it and enjoy the conversation 
+                Derzeit sind einige Beispieldialog zu allgemeinen Fragen implementiert und ein Beispieldialog über 
+                'Elektromobility' als Demo abgebildet. 
+            <br/>Gebe eine Frage ein und probiere die Dialoge aus.
 
         </p>
         <p className='conversation__intro_links'>
