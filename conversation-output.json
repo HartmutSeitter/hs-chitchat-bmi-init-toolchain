@@ -1,0 +1,47 @@
+{
+  "entities": [],
+  "context": {
+    "system": {
+      "dialog_stack": [
+        {
+          "dialog_node": "node_2_1518179644466"
+        }
+      ],
+      "dialog_turn_counter": 1,
+      "dialog_request_counter": 1,
+      "_node_output_map": {
+        "node_2_1518179644466": [
+          0
+        ]
+      }
+    },
+    "is_non_business_question": true,
+    "topConfidence": 0.32666914912707057,
+    "conversation_id": "c24883fe-8c57-4034-881c-0f9923b732b1",
+    "topIntent": "ebikeinfo"
+  },
+  "intents": [
+    {
+      "intent": "ebikeinfo",
+      "confidence": 0.32666914912707057
+    }
+  ],
+  "output": {
+    "log_messages": [],
+    "answer_id": [],
+    "text": [
+      "Du solltest wissen, dass das Herzstück des ebikes die \"Drive Unit\" ist. Von Bosch gibt es derzeit vier verschiedene \"Drive Units\" - Active Line, Active Line Plus, Performance Line und Performance Line CX.  Welche \"Drive Unit\" darf ich dir genauer vorstellen?"
+    ],
+    "nodes_visited": [
+      "node_1_1500369585323",
+      "Intents",
+      "node_2_1518179644466"
+    ],
+    "action": {
+      "call_translate": ""
+    }
+  },
+  "input": {
+    "text": "ich brauche infos zu ebikes"
+  }
+}
